@@ -5,3 +5,6 @@ cd /Users/Pierre/Library/CloudStorage/GoogleDrive-pierre.granchamp@finamars.com/
 git add .
 git commit -m "Sync auto $(date '+%Y-%m-%d %H:%M:%S')"
 git push origin main
+
+echo "Synchronisation terminée !"
+read -p "Appuie sur une touche pour fermer."
